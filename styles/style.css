@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    ;
+}
+
+/* header and navbar */
+/* header {} */
+
+header {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.nav-brand {
+    display: flex;
+    align-items: center;
+}
+
+.nav-brand img {
+    width: 5rem;
+    height: 2.5rem;
+    margin-right: 1rem;
+}
+
+.nav-brand .pro {
+    color: #FF42A5;
+}
+
+.nav-brand:has(h2) {
+    color: #0B0223;
+    font-size: 2.1rem;
+    font-weight: 700;
+}
+
+nav {
+    max-width: 71.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.navbar a {
+    color: #3C354F;
+    font-weight: 500;
+    font-size: 1.1rem;
+    text-decoration: none;
+    margin-right: 1.5rem;
+}
+
+.navbar .nav-btn {
+    background: rgba(11, 2, 35, 0.10);
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #3C354F;
+    padding: 0.8rem;
+    border-radius: 8px;
+    border: none;
+}
+
+.navbar .nav-btn .fa-youtube,
+.fa-tiktok {
+    font-size: 1.5rem;
+    margin: 0.5rem;
+
+}
+
+.navbar .nav-btn .fa-youtube {
+    color: rgb(150, 12, 12);
+}
+
+.navbar .nav-btn.fa-tiktok {
+    color: rgb(255, 0, 80);
+}
+
+/* banner section */
+.banner {
+    background-color: rgba(255, 66, 165, 0.03) 2%, rgba(255, 66, 165, 0.03);
+}
+
+.banner-container {
+    max-width: 71.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.banner-title-one {
+    color: #0B0223;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.banner-title-two {
+    font-size: 4.6rem;
+    font-weight: 800;
+    color: #F948B2;
+    margin-bottom: 24px;
+}
+
+.banner-container img {
+    width: 50%;
+}
+
+.banner-container:has(p) {
+    color: #534C64;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 19px;
+}
+
+.btn-one {
+    padding: 13px 30px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    border: none;
+    margin-top: 15px;
+    margin-right: 15px;
+    color: white;
+    font-weight: bold;
+
+}
+
+.btn-two {
+    padding: 13px 30px;
+    border-radius: 48px;
+    background: #4EC5F7;
+    border: none;
+    margin-top: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+/* Games section */
+.games {
+    max-width: 71.25rem;
+    margin: 0 auto;
+}
+
+.games>h2 {
+    color: #0B0223;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.games>h2 .games-title {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 38px;
+    font-weight: 700;
+}
